@@ -1,0 +1,88 @@
+input:focus,
+button {
+  outline: none;
+  border: none;
+}
+.addTenants {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
+}
+.tenantsHeader {
+  width: 100%;
+  margin: 20px;
+  font-size: 42px;
+  display: flex;
+}
+.tenantsHeader button {
+  border-radius: 5px;
+  height: 35px;
+  width: 60px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: rgba(0, 104, 189, 0.938);
+}
+.tenantsHeader .tenantsHeading {
+  width: 90%;
+  text-align: center;
+}
+.tenantsForm {
+  border: 1px solid grey;
+  width: 95%;
+  max-width: 1400px;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.inputField {
+  height: 90px;
+  width: 450px;
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.inputField label {
+  margin: 3px;
+  font-size: 18px;
+}
+.inputField .inputBar {
+  width: 420px;
+  height: 54px;
+  padding: 3px 15px;
+  font-size: 22px;
+  border: 1px solid rgba(128, 128, 128, 0.8);
+  border-radius: 3px;
+  background-color: rgb(248, 248, 248);
+  color: grey;
+}
+/* .inputField */
+.tenantsForm .addButton {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.tenantsForm .addButton .buttons {
+  padding: 5px;
+}
+.tenantsForm .addButton .buttons button {
+  height: 45px;
+  width: 100px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(0, 122, 221, 0.815);
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
+}
+.tenantsForm .addButton .buttons button:hover {
+  background-color: rgba(0, 104, 189, 0.938);
+  cursor: pointer;
+}

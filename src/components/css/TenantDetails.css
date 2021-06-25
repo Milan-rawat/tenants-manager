@@ -1,0 +1,96 @@
+.tenantsDetailPage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
+}
+.tenantsDetailPage .tenantDetailHead {
+  width: 100%;
+  margin: 20px;
+  font-size: 42px;
+  display: flex;
+}
+.tenantsDetailPage .tenantDetailHead button {
+  border-radius: 5px;
+  height: 35px;
+  width: 60px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: rgba(0, 104, 189, 0.938);
+}
+.tenantsDetailPage .tenantDetailHead span {
+  width: 90%;
+  text-align: center;
+}
+
+.tenantsDetailPage .tenantsDetail {
+  border-top: 1px solid grey;
+  height: auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tenantsDetailPage .tenantsDetail .tenantName {
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  font-family: italic;
+  margin: 10px 0;
+}
+.tenantsDetailPage .tenantsDetail .otherDetails {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+  height: auto;
+  background-color: rgba(0, 104, 189, 0.938);
+  box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.3);
+}
+.tenantsDetailPage Table {
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+  background-color: white;
+  /* border-radius: 10px; */
+}
+.tenantsDetailPage Table td {
+  height: auto;
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+.tenantsDetailPage Table tr td:first-child {
+  width: 150px;
+  /* background-color: lightgrey; */
+}
+.tenantsDetailPage Table tr:nth-child(odd) td:last-child {
+  background-color: lightgrey;
+}
+.tenantsDetailPage Table tr:nth-child(even) td:first-child {
+  background-color: lightgrey;
+}
+
+.tenantsDetailPage .editButton {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.tenantsDetailPage .editButton button {
+  height: 45px;
+  width: 100px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 122, 221, 0.815);
+  background-color: white;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.2);
+}
+.tenantsDetailPage .editButton button:hover {
+  background-color: rgb(0, 140, 255);
+  cursor: pointer;
+  box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.5);
+}
